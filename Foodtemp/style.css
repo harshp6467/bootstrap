@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: white;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 0;
+}
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+}
+.navbar-brand h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #323f4b;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+}
+
+.navbar-toggler {
+    border: none;
+    background: none;
+}
+
+.navbar-toggler-icon {
+    width: 25px;
+    height: 25px;
+}
+.Banner-section-bg-container {
+    background: url(./img/banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner-heading {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.custom-button,
+.custom-outline-button {
+    font-size: 16px;
+    padding: 10px 15px;
+    width: 140px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    border: none;
+}
+
+.custom-button:hover {
+    background-color: #b89a00;
+}
+.custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    border: 1px solid #d0b200;
+}
+
+.custom-outline-button:hover {
+    background-color: #d0b200;
+    color: white;
+}
+.card-section {
+    background-color: rgb(222, 232, 229);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.card-section-heading {
+    color: #183b56;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-section-description {
+    color: #5a7184;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.wcu-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.wcu-card-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.wcu-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #183b56;
+    margin-bottom: 10px;
+}
+
+.wcu-card-description {
+    font-size: 14px;
+    color: #5a7184;
+    line-height: 1.5;
+}
+
+.menu-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.menu-item-card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #d0b200;
+}
+
+.menu-item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: #fff8e1;
+    border-color: #b29400;
+}
+
+.menu-item-image {
+    border-radius: 12px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.menu-card-title {
+    color: #183b56;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.menu-item-link {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #d0b200;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.menu-item-link:hover {
+    background-color: #b29400;
+}
+.healthy-food-section {
+    background-color: #fff8e1;
+    padding: 50px 0;
+}
+
+.healthy-food-section-img {
+    width: 270px;
+    border: 4px solid #d0b200;
+    padding: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.healthy-food-section-heading {
+    color: #b29400;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.custom-button {
+    background-color: #d0b200;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+    background-color: #b29400;
+}
+.location-section {
+    background-color: #f3f4f6;
+    padding: 50px 0;
+}
+
+.location-heading {
+    color: #b29400;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imgg1 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.imgg1:hover {
+    transform: scale(1.05);
+}
+
+.imgg1 img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.footer-section {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-section-heading {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #f4b400;
+}
+
+.footer-desc {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #d1d1d1;
+}
+
+.footer-desc a {
+    color: #f4b400;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-desc a:hover {
+    text-decoration: underline;
+}
+
+.contact-info,
+.social-links,
+.address,
+.copyright {
+    margin-bottom: 15px;
+}
+
+.map-container {
+    margin-top: 20px;
+}
+
+.footer-map {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
